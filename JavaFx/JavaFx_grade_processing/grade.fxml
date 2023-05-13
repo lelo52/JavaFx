@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Gradecontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="14.0" prefHeight="85.0" prefWidth="304.0" text="성적처리 " textFill="#c6169a">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtName" layoutX="94.0" layoutY="87.0" prefHeight="24.0" prefWidth="92.0" />
+      <Label layoutX="29.0" layoutY="81.0" prefHeight="31.0" prefWidth="65.0" text="성명">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtKor" layoutX="276.0" layoutY="87.0" prefHeight="24.0" prefWidth="92.0" />
+      <Label layoutX="211.0" layoutY="81.0" prefHeight="31.0" prefWidth="65.0" text="국어">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEng" layoutX="454.0" layoutY="86.0" prefHeight="24.0" prefWidth="92.0" />
+      <Button fx:id="btnStart1" layoutX="14.0" layoutY="140.0" mnemonicParsing="false" onAction="#btnStart1Action" prefHeight="55.0" prefWidth="217.0" text="start1">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Label layoutX="387.0" layoutY="81.0" prefHeight="31.0" prefWidth="65.0" text="영어">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="284.0" prefHeight="46.0" prefWidth="65.0" text="평균">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAvg" alignment="CENTER_RIGHT" layoutX="183.0" layoutY="273.0" prefHeight="69.0" prefWidth="187.0" text="0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="420.0" layoutY="273.0" text="점">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="213.0" prefHeight="46.0" prefWidth="65.0" text="합계">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSum" alignment="CENTER_RIGHT" layoutX="182.0" layoutY="202.0" prefHeight="69.0" prefWidth="187.0" text="0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="419.0" layoutY="202.0" text="점">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnStart2" layoutX="322.0" layoutY="140.0" mnemonicParsing="false" onAction="#btnStart2Action" prefHeight="55.0" prefWidth="217.0" text="start2">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
